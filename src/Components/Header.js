@@ -1,5 +1,4 @@
-import React from "react";
-function Header() {
+import React from "react";function Header() {
   const social = [
     {
       name: "facebook",
@@ -43,16 +42,6 @@ function Header() {
               Works
             </a>
           </li>
-          {/* <li>
-              <a className="smoothscroll" href="#testimonials">
-                Testimonials
-              </a>
-            </li> */}
-          {/* <li>
-              <a className="smoothscroll" href="#contact">
-                Contact
-              </a>
-            </li> */}
         </ul>
       </nav>
 
