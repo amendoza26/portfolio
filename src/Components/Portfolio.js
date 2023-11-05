@@ -1,5 +1,4 @@
-import React from "react";
-function Portfolio() {
+import React from "react";function Portfolio() {
   const projects = [
     {
       title: "Liinx",
@@ -42,7 +41,7 @@ function Portfolio() {
               return (
                 <div key={pr.title} className="columns portfolio-item">
                   <div className="item-wrap">
-                    <a href={pr.url} title={pr.title}>
+                    <a href={pr.url} title={pr.title} target="_blank">
                       <img alt={pr.title} src={pr.image} />
                       <div className="overlay">
                         <div className="portfolio-item-meta">
